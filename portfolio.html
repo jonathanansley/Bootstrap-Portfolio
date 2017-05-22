@@ -6,13 +6,12 @@
   <title>Portfolio | Jonathan Ansley</title>
   <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
 
-  <!-- <link rel="stylesheet" type="text/css" href="assets/css/style.css"> -->
-
-
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
 
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
+
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 
 </head>
 
@@ -56,22 +55,6 @@
 
 
 
-
-
-
-
-
-  <header id="masthead">
-    <div class="container">
-      <a href="index.html" id="logo">Jonathan Ansley</a>
-      <nav>
-        <a href="index.html">About</a>
-        <a href="portfolio.html">Portfolio</a>
-        <a href="contact.html">Contact</a>
-      </nav>
-    </div>
-  </header>
-
   <div id="main-container" class="container">
     <section class="main-section">
       <h1>Portfolio</h1>
@@ -110,38 +93,51 @@
 
 
 
-    <section class="sidebar">
+    <div class="col-xs-12 col-sm-12 col-md-4"> <!-- 2nd column for sidebar-->
 
-      <div id="connect">
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h3 class="panel-title">Connect with Me</h3>
+        </div><!-- /.panel-heading -->
 
-        <h2>Connect with Me</h2>
+        <div class="panel-body">
 
-        <!-- GitHub icon -->
-        <a href="https://github.com/jonathanansley" title="Connect with me on GitHub" target="_blank">
-          <img class="social" alt="alt text to Connect with me on LinkedIn" src="assets/images/1494206527_mark-github.png">
-          </a>
+                <!-- GitHub icon -->
+                <a href="https://github.com/jonathanansley" title="Connect with me on GitHub" target="_blank">
+                  <img class="social" alt="alt text to Connect with me on LinkedIn" src="assets/images/1494206527_mark-github.png">
+                </a>
 
-        <!-- LinkedIn icon -->
-        <a href="https://www.linkedin.com/in/jonathanansley/" title="Connect with me on LinkedIn" target="_blank">
-          <img class="social" alt="alt text to Connect with me on LinkedIn" src="assets/images/1494206461_linkedin.png">
-          </a>
+                <!-- LinkedIn icon -->
+                <a href="https://www.linkedin.com/in/jonathanansley/" title="Connect with me on LinkedIn" target="_blank">
+                  <img class="social" alt="alt text to Connect with me on LinkedIn" src="assets/images/1494206461_linkedin.png">
+                </a>
 
-        <!-- StackOverflow icon -->
-        <a href="http://stackoverflow.com/users/7829837/j-ansley" title="Connect with me on StackOverflow" target="_blank">
-          <img class="social" alt="alt text to Connect with me on StackOverflow"  src="assets/images/1494206441_stackoverflow.png">
-        </a>
+                <!-- StackOverflow icon -->
+                <a href="http://stackoverflow.com/users/7829837/j-ansley" title="Connect with me on StackOverflow" target="_blank">
+                  <img class="social" alt="alt text to Connect with me on StackOverflow"  src="assets/images/1494206441_stackoverflow.png">
+                </a>
 
-      </div>
+        </div><!-- /.panel-body -->
 
-    </section>
+      </div><!-- /.panel-default -->
+
+    </div> <!-- 2nd column for sidebar-->
+
+
+
 
   </div>
 
-  <footer>
+
+
+  <nav class="navbar navbar-default navbar-fixed-bottom">
     <div class="container">
       Copyright &copy; 2017 Jonathan Ansley
     </div>
-  </footer>
+  </nav>
+
+
+
 </body>
 
 </html>
